@@ -1,0 +1,35 @@
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './vars.scss';
+@import './home.scss';
+
+body {
+  font-family: $secondary-font;
+}
+
+.v-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button {
+  min-width: 200px;
+  display: inline-block;
+  background-image: $btn-gradient;
+  font-family: $secondary-font;
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 27px;
+  padding: 5px 30px;
+  border: 2px solid transparent;
+  background-size: 110%;
+  background-position: -16px;
+  &:hover {
+    background-image: none;
+    background: white;
+    color: $border-yellow;
+    border: 2px solid $border-yellow;
+  }
+}

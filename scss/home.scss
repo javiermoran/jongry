@@ -1,0 +1,181 @@
+.heading-row {
+  min-height: 889px;
+  background-image: $yellow-gradient;
+  .jongry-intro {
+    background-image: url('img/jongry-intro.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  .jongry-intro-description {
+    background-image: url('img/icons-bg.svg');
+  }
+  .small-logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+  }
+  .play-btn {
+    border-radius: 38px;
+    background-color: white;
+    color: black;
+    font-family: $secondary-font;
+    padding: 15px 30px;
+    font-size: 15px;
+    margin-bottom: 70px;
+    box-shadow: 3px 5px 0px rgba(248, 179, 75, 0.6);
+    .fas {
+      margin-right: 20px;
+    }
+    &:hover {
+      background-color: rgba(248, 179, 75, 0.6);
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+.numbers-row {
+  margin-top: 70px;
+  font-size: 20px;
+  line-height: 1.5;
+  &.numbers-row-inner {
+    max-width: 255px;
+    margin: auto;
+  }
+  .large-number {
+    font-family: $primary-font;
+    font-size: 120px;
+    color: $numbers-grey;
+    font-weight: bold;
+    small {
+      font-size: 50px;
+    }
+  }
+  .number-content {
+    font-family: $secondary-font;
+    color: $main-text;
+    font-weight: 300;
+    b {
+      font-weight: bold;
+    }
+  }
+}
+
+.prices-list {
+  max-width: 255px;
+  margin: auto;
+  display: inline-block;
+  padding-left: 0;
+  font-size: 20px;
+  li {
+    text-align: left;
+    font-family: $secondary-font;
+    position: relative;
+    color: $list-grey;
+    list-style: none;
+    margin-bottom: 10px;
+    img {
+      margin-right: 8px;
+    }
+    .fas {
+      font-size: 13px;
+      position: absolute;
+      color: $yellow;
+      left: -15px;
+      top: 10px;
+    }
+  }
+}
+
+.prices-row {
+  background-color: $light-background-yellow;
+  margin-top: 70px;
+  padding: 40px 0;
+  font-size: 20px;
+}
+
+.prices-tooltip {
+  max-width: 296px;
+  margin: auto;
+  font-size: 14px;
+  color: white;
+  border-radius: 3px;
+  background-image: $to-right-gradient;
+  padding: 10px 27px;
+  color: $tooltip-light-yellow;
+  text-align: center;
+  margin-bottom: 18px;
+  line-height: 1.13;
+  b {
+    color: white;
+  }
+}
+
+.prices-rectangle {
+  margin: auto;
+  max-width: 221px;
+  min-width: 221px;
+  font-family: $secondary-font;
+  border: 1px solid $border-yellow;
+  border-radius: 3px;
+  padding: 19px;
+  background-color: white;
+  color: $list-grey;
+  text-align: center;
+  &.bread-background {
+    background-image: url('img/ico-bread.svg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  & > div {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .circled-number {
+    font-family: $primary-font;
+    border: 1px solid $border-yellow;
+    padding: 4px 22px;
+    color: $yellow;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+  }
+  .pr-number {
+    font-family: $primary-font;
+    text-align: center;
+    color: $main-text;
+    font-size: 40px;
+    font-weight: bold;
+    small {
+      font-size: 30px;
+      font-weight: bold;
+    }
+  }
+}
+
+.plans-row {
+  margin-top: 80px;
+  & > .row {
+    margin: auto;
+  }
+  .plan-rectangle {
+    min-width: 295px;
+    max-width: 295px;
+    padding: 0;
+    .plan-header {
+      padding: 20px 70px;
+      background-image: $light-gradient;
+      border-bottom: 1px solid $border-yellow;
+    }
+  }
+  .plan-right {
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .plan-left {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
