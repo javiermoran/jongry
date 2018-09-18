@@ -971,11 +971,19 @@ h2,h3{page-break-after:avoid}@page{size:a3}body{min-width:992px !important}.cont
 .navbar{display:none}.badge{border:1px solid #000}.table{border-collapse:collapse !important}
 .table td,.table th{background-color:#fff !important}.table-bordered th,.table-bordered td{border:1px solid #dee2e6 !important}
 .table-dark{color:inherit}.table-dark th,.table-dark td,.table-dark thead th,.table-dark tbody+tbody{border-color:#dee2e6}
-.table .thead-dark th{color:inherit;border-color:#dee2e6}}.heading-row{min-height:889px;background-image:linear-gradient(122deg,#ed8139,#f6c55a)}
-.heading-row .jongry-intro{background-image:url("img/jongry-intro.jpg");background-size:cover;background-position:center}
-.heading-row .jongry-intro-description{background-image:url("img/icons-bg.svg")}
-.heading-row .small-logo{position:absolute;left:20px;top:20px}.heading-row .play-btn{border-radius:38px;background-color:white;color:black;font-family:"effra";padding:15px 30px;font-size:15px;margin-bottom:70px;box-shadow:3px 5px 0 rgba(248,179,75,0.6)}
+.table .thead-dark th{color:inherit;border-color:#dee2e6}}.heading-row{color:#fff1d8;font-size:20px;min-height:889px;background-image:linear-gradient(122deg,#ed8139,#f6c55a)}
+.heading-row b{color:white}.heading-row .jongry-intro{background-image:url("img/jongry-intro.jpg");background-size:cover;background-position:center}
+.heading-row .jongry-intro-description{background-image:url("img/icons-bg.svg");display:flex;align-items:center}
+.heading-row .jongry-intro-description .jongry-intro-d-inner{max-width:449px}.heading-row .jongry-intro-description .description-subtitle{font-size:15px;text-align:center}
+.heading-row .small-logo{position:absolute;left:20px;top:20px}.heading-row .logo-container{background-image:url("img/bg-logo.svg");padding:11px 36px;background-repeat:no-repeat}
+.heading-row .play-btn{border-radius:38px;background-color:white;color:black;font-family:"effra";padding:15px 30px;font-size:15px;margin-bottom:70px;box-shadow:3px 5px 0 rgba(248,179,75,0.6)}
 .heading-row .play-btn .fas{margin-right:20px}.heading-row .play-btn:hover{background-color:rgba(248,179,75,0.6);color:white;text-decoration:none}
+.heading-row .description-rectangle{position:relative;width:100%;padding-bottom:100%;border-radius:15px;background-image:linear-gradient(to top,#ffe1c1,#fff);box-shadow:0 2px 1px 0 #e89a0e}
+.heading-row .description-rectangle .fire,.heading-row .description-rectangle .box,.heading-row .description-rectangle .target{position:absolute;width:100%;height:100%;background-repeat:no-repeat;background-position:center}
+.heading-row .description-rectangle .fire{background-image:url("img/fire.svg")}
+.heading-row .description-rectangle .box{background-image:url("img/box.svg")}
+.heading-row .description-rectangle .target{background-image:url("img/target.svg")}
+.heading-row .description-p{position:relative;padding-left:40px}.heading-row .description-p img{position:absolute;left:0}
 .numbers-row{margin-top:70px;font-size:20px;line-height:1.5}.numbers-row.numbers-row-inner{max-width:255px;margin:auto}
 .numbers-row .large-number{font-family:"aktiv-grotesk";font-size:120px;color:#d9d9d9;font-weight:bold}
 .numbers-row .large-number small{font-size:50px}.numbers-row .number-content{font-family:"effra";color:#2f2f2f;font-weight:300}
@@ -993,6 +1001,8 @@ h2,h3{page-break-after:avoid}@page{size:a3}body{min-width:992px !important}.cont
 .plans-row .plan-rectangle .plan-header{padding:20px 70px;background-image:linear-gradient(to top,#fff5eb,#fff);border-bottom:1px solid #f1a317}
 .plans-row .plan-right{border-left:0;border-top-left-radius:0;border-bottom-left-radius:0}
 .plans-row .plan-left{border-right:0;border-top-right-radius:0;border-bottom-right-radius:0}
+.individuals-row{padding-top:80px;margin-bottom:247px}.footer{background-image:linear-gradient(to right,#ed8139,#f6c55a);height:50px}
 body{font-family:"effra"}.v-center{display:flex;align-items:center;justify-content:center;flex-direction:column}
 .button{min-width:200px;display:inline-block;background-image:linear-gradient(to right,#ed8139,#f6c55a);font-family:"effra";font-size:20px;color:white;text-transform:uppercase;border-radius:27px;padding:5px 30px;border:2px solid transparent;background-size:110%;background-position:-16px}
 .button:hover{background-image:none;background:white;color:#f1a317;border:2px solid #f1a317}
+p.large-font{font-size:20px}

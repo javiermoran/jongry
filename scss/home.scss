@@ -1,6 +1,11 @@
 .heading-row {
+  color: $tooltip-light-yellow;
+  font-size: 20px;
   min-height: 889px;
   background-image: $yellow-gradient;
+  b {
+    color: white;
+  }
   .jongry-intro {
     background-image: url('img/jongry-intro.jpg');
     background-size: cover;
@@ -8,11 +13,25 @@
   }
   .jongry-intro-description {
     background-image: url('img/icons-bg.svg');
+    display: flex;
+    align-items: center;
+    .jongry-intro-d-inner {
+      max-width: 449px;
+    }
+    .description-subtitle {
+      font-size: 15px;
+      text-align: center;
+    }
   }
   .small-logo {
     position: absolute;
     left: 20px;
     top: 20px;
+  }
+  .logo-container {
+    background-image: url('img/bg-logo.svg');
+    padding: 11px 36px;
+    background-repeat: no-repeat;
   }
   .play-btn {
     border-radius: 38px;
@@ -30,6 +49,38 @@
       background-color: rgba(248, 179, 75, 0.6);
       color: white;
       text-decoration: none;
+    }
+  }
+  .description-rectangle {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: 15px;
+    background-image: linear-gradient(to top, #ffe1c1, #ffffff);
+    box-shadow: 0 2px 1px 0 #e89a0e;
+    .fire, .box, .target {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .fire {
+      background-image: url('img/fire.svg');
+    }
+    .box {
+      background-image: url('img/box.svg');
+    }
+    .target {
+      background-image: url('img/target.svg');
+    }
+  }
+  .description-p {
+    position: relative;
+    padding-left: 40px;
+    img {
+      position: absolute;
+      left: 0;
     }
   }
 }
@@ -178,4 +229,14 @@
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
   }
+}
+
+.individuals-row {
+  padding-top: 80px;
+  margin-bottom: 247px;
+}
+
+.footer {
+  background-image: linear-gradient(to right, #ed8139, #f6c55a);
+  height: 50px;
 }
